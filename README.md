@@ -16,6 +16,8 @@ In this task, a bash script was written that extract a csv file from a URL, tran
 
 The architectural diagram of the ETL pipeline is as shown below:
 
+![ETL Diagram](./Bash_ETL_architecture.png)
+
 ## Part 2
 
 In this task, a simple bash script is created to move csv and json files from one folder into another. The script can be assessed [here](./Scripts/Bash_Scripts/move_csv_json.sh).
