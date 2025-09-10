@@ -28,3 +28,6 @@ In this task, a bash script is written that iterates over and copies each of the
 - Compiling bash script to create database, create tables, and iterates over and copies each of the CSV files into the tables.
 - The script can be assessed [here](./Scripts/Bash_Scripts/parch_and_posey.sh).
 
+## Analysis of the posey database using SQL
+
+Sql queries are written to answer questions possed by the instructor. The answers (sql scripts) to the four questions can be found in the [SQL Script directory](./Scripts/SQL_Scripts/).
