@@ -12,7 +12,7 @@ In this task, a bash script was written that extract a csv file from a URL, tran
 
 1. The URL is expoted into an environmental variable and was called inside the script.
 2. The cron job was set up a follow: `0 0 * * * /bin/bash -c 'source ~/.cron_env && /Scripts/Bash_Scripts/CDE_ETL_script.sh`. The script is set to run at 12:00 AM (representing 0 0) in cron. The `source ~/.cron_env` run the environmental variables prior to running the script while `/Scripts/Bash_Scripts/CDE_ETL_script.sh` specify the path to the script to be run by cron.
-3. The csv file for the extraction tak can be assessed via this [link](https://www.stats.govt.nz/assets/Uploads/Annual-enterprise-survey/Annual-enterprise-survey-2023-financial-year-provisional/Download-data/annual-enterprise-survey-2023-financial-year-provisional.csv)
+3. The csv file for the extraction task can be assessed via this [link](https://www.stats.govt.nz/assets/Uploads/Annual-enterprise-survey/Annual-enterprise-survey-2023-financial-year-provisional/Download-data/annual-enterprise-survey-2023-financial-year-provisional.csv)
 
 The architectural diagram of the ETL pipeline is as shown below:
 
